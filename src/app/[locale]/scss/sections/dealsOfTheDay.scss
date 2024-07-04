@@ -1,0 +1,17 @@
+.deals-of-the-day {
+ .product-details-wrapper {
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+    }
+    .product-details-container {
+        padding: 0rem;
+        @media screen and (max-width: 600px) {
+            padding: 0rem;
+            margin-top: 1rem;
+        }
+    }
+ }   
+}
